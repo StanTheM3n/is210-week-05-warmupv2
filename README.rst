@@ -83,7 +83,7 @@ Specifications
 
     5.  ``Subtraction``
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -94,95 +94,8 @@ Examples
     ['Parentheses', 'Exponents', 'Multiplication', 'Division', 'Addition',
     'Subtraction']
 
+
 Task 02
--------
-
-In this task, you'll be interacting with an existing list and performing some
-standard access functions.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Create a new module named ``task_02.py``.
-    
-2.  Import the ``data`` module that is provided as part of your repository. You
-    may preview it if you wish.
-
-3.  Make a local variable reference to ``data.BALLETS`` named ``BALLETS``.
-    You will now work exclusively with your local ``BALLETS`` variable.
-
-    .. note::
-
-        Interestingly, since ``BALLETS`` is a mutable type passed by reference,
-        any changes you make to ``BALLETS`` is also replicated in
-        ``data.BALLETS`` Try printing both in your interpreter window to
-        see mutability at work!
-
-    .. note::
-
-        Since Python passes mutable types by reference upon assignment it would
-        be improper to say *make a local copy of data.BALLETS* even if
-        that's what might it might feel like. Either way, the construction is
-        similar and uses the assignment operator `` = `` just that mutable
-        types are passed by reference.
-
-4.  Modify ``BALLETS`` and use the ``del`` statement to remove the item at the
-    index 11 position.
-
-5.  Next, using a slice-style syntax (eg, ``VAR[x]``), change the value of the
-    second item on the ``BALLETS`` list to ``Swan Lake``
-
-6.  Now, append a new item to the ``BALLETS`` list. Use the ``append()`` method
-    to add a new item with a value of ``'Herman Schmerman'``
-
-7.  Finally, use the ``extend()`` function to add two more items to the list in
-    a single statement:
-
-    1.  Don Quixote
-            
-    2.  Sylvia
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-
-    >>> import task_02
-    >>> len(task_02.BALLETS)
-    24
-    
-
-Task 03
--------
-
-While tuples are immutable entities you can still "add" or "delete" elements
-by creating new tuples and using slice syntax and arithmetic operators. Here,
-we'll practice it.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Create a new module named ``task_03.py``.
-
-2.  Import the ``data`` module that is provided as part of your repository. You
-    may preview it if you wish.
-
-3.  Create a local copy of ``data.DIRECTIONS`` named ``DIRECTIONS``
-
-4.  Using a combination of slice syntax (``var[x]``) and arithmetic operators,
-    replace the last item of ``DIRECTIONS`` with the value ``West`` saving the
-    resultant new tuple back into the ``DIRECTIONS`` variable.
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-
-    >>> import task_03
-    >>> task_03.DIRECTIONS
-    ('North', 'South', 'East', 'West')
-
-Task 04
 -------
 
 Looping lists with a ``for`` loop is a powerful and straightforward way to
@@ -192,7 +105,7 @@ with our ``data`` module.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a new module named ``task_04.py``.
+1.  Create a new module named ``task_02.py``.
     
 2.  Create a new function named ``process_data()`` that takes one argument:
 
@@ -215,7 +128,7 @@ Specifications
     You should first create your total outside of the loop so you can add to
     it as the loop is processing.
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
@@ -229,7 +142,7 @@ Examples
 
     number of records and watch your
 
-Task 05
+Task 03
 -------
 
 Our last warmup task will touch upon the mutability differences between
@@ -285,7 +198,7 @@ Specifications
     For an idea on how to reverse a tuple, head back to an earlier assignment
     when you reversed a string using the slice syntax.
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
