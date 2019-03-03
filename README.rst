@@ -49,9 +49,9 @@ their standard constructors.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a new module named ``task_01.py``
+1.  Open a new Jupyter notebook
 
-2.  In ``task_01.py`` create a constant named ``ELEMENTS`` and set its values
+2.  create a constant named ``ELEMENTS`` and set its values
     to a ``tuple()`` with the following data (in order):
 
     0.  ``None`` (the Python constant, not a string)
@@ -83,6 +83,8 @@ Specifications
 
     5.  ``Subtraction``
 
+4.  Print the results as shown below
+
 Expected Output
 ^^^^^^^^
 
@@ -105,7 +107,7 @@ with our ``data`` module.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a new module named ``task_02.py``.
+1.  Use the same Jupyter notebook
     
 2.  Create a new function named ``process_data()`` that takes one argument:
 
@@ -117,6 +119,8 @@ Specifications
     1.  The total sum of the data
 
     2.  The average of the data with floating point precision
+
+4.  Run the function as shown below in "Expected Output"
 
 .. hint::
 
@@ -151,7 +155,7 @@ strings and their cousin, the tuple.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a module named ``task_05.py``
+1.  Use the same Jupyter notebook
 
 2.  Create a function named ``flip_keys()`` that takes one argument:
 
@@ -165,6 +169,8 @@ Specifications
 
 4.  The function should return **the original list** with its inner elements
     reversed.
+    
+5.  Run the test below and show the expected output in your notebook
     
 .. warning:
 
@@ -210,53 +216,11 @@ Expected Output
     >>> print LIST
     [(3, 2, 1), 'cba']
 
-Executing Tests
-===============
 
-Code must be functional and pass tests before it will be eligible for credit.
-
-Linting
--------
-
-Lint tests check your code for syntactic or stylistic errors To execute lint
-tests against a specific file, simply open a terminal in the same directory as
-your code repository and type:
-
-.. code:: console
-
-    $ pylint filename.py
-
-Where ``filename.py`` is the name of the file you wish to lint test.
-
-Unit Tests
-----------
-
-Unit tests check that your code performs the tested objectives. Unit tests
-may be executed individually by opening a terminal in the same directory as
-your code repository and typing:
-
-.. code:: console
-
-    $ nosetests tests/name_of_test.py
-
-Where ``name_of_test.py`` is the name of the testfile found in the ``tests``
-directory of your source code.
-
-Running All Tests
------------------
-
-All tests may be run simultaneously by executing the ``runtests.sh`` script
-from the root of your assignment repository. To execute all tests, open a
-terminal in the same directory as your code repository and type:
-
-.. code:: console
-
-    $ ./runtests.sh
 
 Submission
 ==========
 
-Your code should be submitted via Blackboard, as a compressed folder containing python files.
+Code should be submitted via Blackboard as a single Jupyter notebook file.
 
-.. _GitHub: https://github.com/
-.. _Python String Documentation: https://docs.python.org/2/library/stdtypes.html
+In order to receive full credit you must complete the assignment as-instructed and without any violations (reported in the build status).
