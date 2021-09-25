@@ -213,7 +213,7 @@ Expected Output
     >>> NEW = flip_keys(LIST)
     >>> LIST is NEW
     True
-    >>> print LIST
+    >>> print (LIST)
     [(3, 2, 1), 'cba']
 
 
