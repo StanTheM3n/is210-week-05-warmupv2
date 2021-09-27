@@ -1,0 +1,11 @@
+print(" This is a BMI Caculator")
+
+name= input ("Enter your name: ")
+
+weight = float(input("weight"))
+height = float(input("height"))
+
+BMI = Weight / (height**2)
+if bmi < 25:
+    print(f"{name} is underweight by{bmi} BMI")
+    print(f"{name} is overweight by{bmi} BMI")
